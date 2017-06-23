@@ -1,1 +1,24 @@
-{}
+{
+  "facility": {
+    "ServiceUrl": "",
+    "spfacility": {
+      "Site": "https://rss-dev.ncats.nih.gov",
+      "User": "nih\\soundararajanj",
+      "Password": ""
+    },
+    "FacilityDB": "spfacility",
+    "FacilityPath": ""
+  },
+  "services": {
+    "listen": {
+      "port": "8601",
+      "url": "http://localhost"
+    }
+  },
+  "shell": {
+    "LoadServices": true,
+    "Auth": {
+      "Url": "https://a.labshare.org/_api"
+    }
+  }
+}
