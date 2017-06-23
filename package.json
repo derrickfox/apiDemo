@@ -1,23 +1,35 @@
 {
-  "name": "apidemo",
+  "name": "apiDemo",
   "namespace": "",
   "main": "./",
-  "version": "v0.17.622",
-  "description": "To pratice making APIs with NodeJS",
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json",
+    "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json"
+  },
+  "version": "v0.17.614",
+  "description": "Review process for scientific programs within NCATS",
   "private": true,
-  "contributors": "https://github.com/LabShare/apidemo/graphs/contributors",
+  "contributors": "https://github.com/LabShare/adhoc-scientific-review/graphs/contributors",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LabShare/apidemo.git"
+    "url": "https://github.com/LabShare/adhoc-scientific-review.git"
   },
   "bugs": {
-    "url": "https://github.com/LabShare/apidemo/issues"
+    "url": "https://github.com/LabShare/adhoc-scientific-review/issues"
   },
   "license": "MIT",
   "packageDependencies": {
-    "services": "*"
+    "ls-facility": "*",
+    "ls-shell": "*"
   },
   "dependencies": {
-    "@labshare/services": "https://github.com/LabShare/services"
+    "handlebars": "^4.0.10",
+    "jasmine": "^2.6.0",
+    "ls-facility": "https://github.com/LabShare/facility",
+    "ls-shell": "https://github.com/LabShare/shell",
+    "services": "https://github.com/LabShare/services.git"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
   }
 }
