@@ -7,26 +7,25 @@
     "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json"
   },
   "version": "v0.17.614",
-  "description": "Review process for scientific programs within NCATS",
+  "description": "Demoing LabShare APIs",
   "private": true,
-  "contributors": "https://github.com/LabShare/adhoc-scientific-review/graphs/contributors",
+  "contributors": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LabShare/adhoc-scientific-review.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/LabShare/adhoc-scientific-review/issues"
+    "url": ""
   },
   "license": "MIT",
   "packageDependencies": {
-    "ls-facility": "*",
     "ls-shell": "*"
   },
   "dependencies": {
     "handlebars": "^4.0.10",
     "jasmine": "^2.6.0",
     "ls-facility": "https://github.com/LabShare/facility",
-    "ls-shell": "https://github.com/LabShare/shell",
+    "ls-shell": "https://github.com/LabShare/shell.git",
     "services": "https://github.com/LabShare/services.git"
   },
   "devDependencies": {
