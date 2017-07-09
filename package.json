@@ -29,6 +29,7 @@
     "services": "https://github.com/LabShare/services.git"
   },
   "devDependencies": {
-    "istanbul": "^0.4.5"
+    "istanbul": "^0.4.5",
+    "lodash": "^4.17.4"
   }
 }
