@@ -4,7 +4,9 @@
   "main": "./",
   "scripts": {
     "test": "jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json",
-    "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json"
+    "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=./test/lib/jasmine.json",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "version": "v0.17.614",
   "description": "Demoing LabShare APIs",
@@ -26,10 +28,12 @@
     "jasmine": "^2.6.0",
     "ls-facility": "https://github.com/LabShare/facility",
     "ls-shell": "https://github.com/LabShare/shell.git",
-    "services": "https://github.com/LabShare/services.git"
+    "services": "https://github.com/LabShare/services.git",
+    "snyk": "^1.190.0"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
     "lodash": "^4.17.4"
-  }
+  },
+  "snyk": true
 }
