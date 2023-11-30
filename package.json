@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "handlebars": "^4.0.10",
-    "jasmine": "^2.6.0",
+    "jasmine": "^3.6.0",
     "ls-facility": "https://github.com/LabShare/facility",
     "ls-shell": "https://github.com/LabShare/shell.git",
     "services": "https://github.com/LabShare/services.git"
